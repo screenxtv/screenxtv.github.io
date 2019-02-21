@@ -1,1 +1,25 @@
 theme: jekyll-theme-midnight
+title: ScreenX TV
+description: Broadcast your terminal
+show_downloads: "false" # ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: "UA-36547970-1" # [Your Google Analytics tracking ID]
+github:
+  repository_url: https://github.com/screenxtv
+
+permalink: /:title
+author:
+  name:  ScreenX TV | Broadcast your terminal
+  email: screenxtv@gmail.com
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://screenx.tv" # the base hostname & protocol for your site
+twitter_username: screenxtv
+github_username:  screenxtv
+source:      ./
+destination: ./_site
+timezone: Asia/Tokyo
+encoding: utf-8
+
+highlighter: rouge
+markdown: kramdown
+exclude: ["vendor", "Gemfile", "Gemfile.lock"]
